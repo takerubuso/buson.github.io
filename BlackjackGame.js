@@ -194,3 +194,9 @@ const BlackjackGame = () => {
 };
 
 export default BlackjackGame;
+ReactDOM.render(
+  <React.StrictMode>
+    <BlackjackGame />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
